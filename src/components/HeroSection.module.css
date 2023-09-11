@@ -1,0 +1,36 @@
+.hero {
+  background-image: url(../assets/images/bgHero.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+  background-position: right center;
+
+  > h2 {
+    /* font-size: 50px; */
+    color: #fff;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 640px;
+    margin-left: 130px;
+    padding-top: 130px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  > h3 {
+    color: #bcbcbc;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 130px;
+    /* padding-top: 130px; */
+  }
+}
+
+span {
+  color: orange;
+}

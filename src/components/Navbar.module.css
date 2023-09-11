@@ -1,0 +1,75 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+  margin: 45px 0;
+
+  > ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+
+    > li {
+      > a {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+
+        &:hover {
+          /* content: "";
+          bottom: 0;
+          left: 0;
+          width: 15px; */
+          background: orange;
+          transition: all 0.7s;
+          /* height: 5px !important; */
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  > p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.resume {
+    margin-top: -10px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  border-radius: 83px;
+  padding: 10px 15px;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+
+  &:hover{
+  background: linear-gradient(170deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  }
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
